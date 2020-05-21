@@ -15,7 +15,7 @@ import ReactDOM from 'react-dom';
 
 // CustomColor.color = "green"
 let customColor = {
-  color : "yellow"
+  color : ""
 }
 
 function Morning() {
