@@ -7,13 +7,14 @@ const CurrentDate = new Date();
 const year = CurrentDate.getFullYear();
 console.log(year);
 
+const upimage = "https://picsum.photos/200"
 
 ReactDOM.render(
   <div>
-
+    <h1 className= "heading" contentEditable="true" spellCheck="false"> hello </h1>
     <p> created by {name}</p>
 <p> copyright {year}</p>
- 
+ <img src={upimage + "?grayscale"}/>
   </div>
   ,
   document.getElementById('root')
